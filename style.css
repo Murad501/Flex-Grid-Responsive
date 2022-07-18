@@ -19,7 +19,7 @@ align-items: center;
 }
 
 .container {
-    width: 870px;
+    width: 1000px;
     background-color: white;
     padding: 33px;
     margin-bottom: 30px;
@@ -165,6 +165,7 @@ hr {
 
     .courses {
         display: grid;
+        justify-items: center;
         grid-template-columns: repeat(3, 1fr);
 
     }
