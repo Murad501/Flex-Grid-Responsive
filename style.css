@@ -238,8 +238,37 @@ hr {
 /* latest course end */
 /* media queries start */
 
+/* extra small device start */
+@media screen and (max-width: 576px) {
+    header {
+        display: none;
+    }
+    .container {
+        width: 100%;
+    }
+    .players {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        row-gap: 30px;
+    }
+    .blogs {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 30px;
+    }
+    .courses {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 30px;
+
+    }
+}
+/*extra small device end */
+
+
 /* small device start */
-@media screen and (min-width: 576px) and (max-width: 767px) {
+
+@media screen and (min-width: 577px) and (max-width: 767px) {
     header {
         display: none;
     }
@@ -263,8 +292,6 @@ hr {
 
     }
 }
-
-
 
 /* small device end */
 
