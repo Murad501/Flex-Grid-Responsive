@@ -245,6 +245,7 @@ hr {
     }
     .container {
         width: 100%;
+        padding: 10px;
     }
     .players {
         display: grid;
@@ -279,6 +280,7 @@ hr {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         row-gap: 30px;
+        column-gap: 10px;
     }
     .blogs {
         display: grid;
